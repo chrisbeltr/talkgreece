@@ -1,0 +1,41 @@
+table,
+th,
+td {
+    border: 2px solid var(--light-brown);
+    padding: 7px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--dark-brown);
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: var(--table-light);
+}
+
+tr:nth-child(even) {
+    background-color: var(--table-dark);
+}
+
+.fit {
+    width: 1px;
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
+
+.table-link {
+    color: black;
+    text-decoration: none;
+}
+
+.table-link:hover {
+    color: black;
+}
